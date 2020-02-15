@@ -1,4 +1,4 @@
-if ans='y':
+if ans='y' or ans='Y':
     print("yes")
 else:
     print("No")
