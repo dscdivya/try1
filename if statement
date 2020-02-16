@@ -1,4 +1,6 @@
 if ans='y' or ans='Y':
     print("yes")
-else:
+if ans='n' or ans='No':
     print("No")
+else:
+    print("Not valid")
