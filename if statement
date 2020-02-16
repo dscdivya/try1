@@ -1,6 +1,11 @@
-if ans='y' or ans='Y':
+print("Are you hungry?")
+ans=input("Are you hungry?")
+
+
+
+if ans=='y' or ans=='Y':
     print("yes")
-if ans='n' or ans='No':
+elif ans=='n' or ans=='No':
     print("No")
 else:
     print("Not valid")
